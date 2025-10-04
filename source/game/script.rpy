@@ -37,8 +37,11 @@ label prolog_rute_i:
     with dissolve
     pause
 
-    #sound sfx "Ctik""Ctrik"
-    "SFX: Ctiks.. Ctiks.. ."
+    play sound [    
+    "computerMouseClick.mp3", 
+    "<silence 2.0>",  # This is the 2-second delay
+    "computerMouseClick.mp3"] loop
+    "Ctiks.. Ctiks.. ."
 
     scene bg mousedanlayar
     with dissolve
@@ -46,9 +49,13 @@ label prolog_rute_i:
 
     scene bg layarwelcome
     with fade
+    stop sound
 
     "Welcome to Masteria Lαnd, we look for your success!"
-
+    play sound "<to 1.0>airRush.mp3"
+    queue sound "fallingWind.mp3" loop
+    scene black
+    with fade
     scene bg langitbiru at falling_animation
     with fade
     show fall_overlay_scrollable at parallax_scroll_down
@@ -62,13 +69,13 @@ label prolog_rute_i:
     p "Waaaaaaaa!!! What?! Where's my parachute?!"
     "[player_name] is falling from the sky"
     "From far away, an object in the sky moves towards [player_name] at lightning speed."
-    #Sfx "wusss"
     p "I'm falling, I'm falliiiing"
     "Whoosh. ."
 
     scene bg langitbiru
     show ameno_fullarmored_full
     with flashBub
+    stop sound
     pause
 
     scene bg pulau
@@ -124,9 +131,10 @@ label pulau:
         jump hutan
 
 label hutan:
+    play sound "punch.mp3"
     scene bg pulau
     with hpunch
-    "SFX: plak"
+    pause 1.0
 
     scene bg hutan
     with fade
@@ -139,16 +147,17 @@ label hutan:
     a "It seems I can get some information from you."
     show ameno cheers at half_center
     a "Alright, I'll allow you to follow me."
-    "SFX: rustle rustle"
+    "Rustle. .rustle.. ."
 
     show ameno fullarmored at half_center
+    stop sound
     pause
 
     scene bg hutan
     with flashBub
 
     show mahyun siluete at fullsize_right
-    "SFX: ctang"
+    play sound "swordClashHit.mp3"
     "Trank! It was so fast. A fantasy monster suddenly appeared from behind [player_name], launching an unexpected ambush attack."
     "Ameno quickly protected [player_name], but because she didn't have time to activate the shield particle, her left weapon took a direct hit."
     show ameno fullarmored at half_left
@@ -179,8 +188,11 @@ label prolog_rute_ii:
     with dissolve
     pause
 
-    #sound sfx "Ctik""Ctrik"
-    "SFX: Ctik.. Ctik.. ."
+    play sound [    
+    "computerMouseClick.mp3", 
+    "<silence 2.0>",  # This is the 2-second delay
+    "computerMouseClick.mp3"] loop
+    "Ctiks.. Ctiks.. ."
 
     scene bg mousedanlayar
     with dissolve
@@ -188,6 +200,7 @@ label prolog_rute_ii:
 
     scene bg layarwelcome
     with fade
+    stop sound
 
     "Welcome to Masteria Lαnd, we look for your success!"
 
@@ -220,6 +233,10 @@ label prolog_rute_ii:
     show mahyun siluete at fullsize_center
     with flashBub
     "Someone in full armor charges into the middle of the Armed Ghosts."
+    play sound ["armorImpactFromSword.mp3",
+    "<silence 2.0>",
+    "armorImpactFromSword.mp3",
+    "<silence 0.5>"] loop
     show armedghost as armedghost1 at defeated
     pause 1.0
     show armedghost as armedghost2 at defeated
@@ -229,7 +246,7 @@ label prolog_rute_ii:
     show screen ctc
     pause
     hide screen ctc
-
+    stop sound
     scene bg mahyunatk
 
     warga "We're safe! The Queen has arrivedddd!"

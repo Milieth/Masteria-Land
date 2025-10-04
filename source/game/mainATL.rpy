@@ -85,6 +85,6 @@ transform falling_animation:
     zoom 2.0
     pause 1.5
     linear 0.1 xpos -1280
-    pause 0.5
+    pause 1.0
     linear 0.1 xpos 0
     pause 1.0

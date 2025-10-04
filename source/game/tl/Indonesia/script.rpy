@@ -392,3 +392,33 @@ translate Indonesia prolog_rute_ii_e5c7d192:
 
 
 
+# TODO: Translation updated at 2025-10-04 12:37
+
+# game/script.rpy:44
+translate Indonesia prolog_rute_i_82828298:
+
+    # "Ctiks.. Ctiks.. ."
+    "Ctiks.. Ctiks.. ."
+
+# game/script.rpy:150
+translate Indonesia hutan_c27e819b:
+
+    # "Rustle. .rustle.. ."
+    "Grusak. .Grusuk.. ."
+
+# game/script.rpy:195
+translate Indonesia prolog_rute_ii_82828298:
+
+    # "Ctiks.. Ctiks.. ."
+    "Ctiks.. Ctiks.. ."
+
+translate Indonesia strings:
+
+    # game/script.rpy:10
+    old "English"
+    new "English"
+
+    # game/script.rpy:13
+    old "Indonesia"
+    new "Indonesia"
+

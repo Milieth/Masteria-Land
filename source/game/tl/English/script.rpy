@@ -384,3 +384,33 @@ translate English strings:
     old "Ahaha~ of course, the sky is so bright, right?"
     new "Ahaha~ of course, the sky is so bright, right?"
 
+# TODO: Translation updated at 2025-10-04 12:36
+
+# game/script.rpy:44
+translate English prolog_rute_i_82828298:
+
+    # "Ctiks.. Ctiks.. ."
+    "Tiks.. Tiks.. ."
+
+# game/script.rpy:150
+translate English hutan_c27e819b:
+
+    # "Rustle. .rustle.. ."
+    "Rustle. .rustle.. ."
+
+# game/script.rpy:195
+translate English prolog_rute_ii_82828298:
+
+    # "Ctiks.. Ctiks.. ."
+    "Tiks.. Tiks.. ."
+
+translate English strings:
+
+    # game/script.rpy:10
+    old "English"
+    new "English"
+
+    # game/script.rpy:13
+    old "Indonesia"
+    new "Indonesia"
+
