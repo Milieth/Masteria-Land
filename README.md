@@ -10,6 +10,6 @@ Visual Novel Game Prolog
 6. 2 CGs Image
 7. 2 Character Sets
 8. 2 Background Image
-
+Note: beberapa background ada yang masih putih, karena masih dalam pengerjaan
 # How To Play
 Download Latest Release and Enjoy
