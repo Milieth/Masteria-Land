@@ -12,5 +12,11 @@ Visual Novel Game Prolog
 8. 2 Background Image
    
 Note: beberapa background ada yang masih putih, karena masih dalam pengerjaan
+
+## Screenshot:
+![Masteria Land Screenshot](https://raw.githubusercontent.com/Milieth/Masteria-Land/main/Game%20Screenshot/screenshot0001.png)
+![Masteria Land Screenshot](https://raw.githubusercontent.com/Milieth/Masteria-Land/main/Game%20Screenshot/screenshot0002.png)
+![Masteria Land Screenshot](https://raw.githubusercontent.com/Milieth/Masteria-Land/main/Game%20Screenshot/screenshot0003.png)
+
 # How To Play
 Download Latest Release and Enjoy
