@@ -19,4 +19,4 @@ Note: beberapa background ada yang masih putih, karena masih dalam pengerjaan
 ![Masteria Land Screenshot](https://raw.githubusercontent.com/Milieth/Masteria-Land/main/Game%20Screenshot/screenshot0003.png)
 
 # How To Play
-Download [Latest Release](https://github.com/Milieth/Masteria-Land/releases/download/1.2/MasteriaLand-1.2-win.rar) (40mb++) and Enjoy
+Download [Latest Release](https://github.com/Milieth/Masteria-Land/releases/download/1.2/MasteriaLand-1.2-win.rar) (46MB++) and Enjoy
