@@ -190,14 +190,20 @@ init python:
 
     ## To archive files, classify them as 'archive'.
 
-    # build.classify('game/**.png', 'archive')
-    # build.classify('game/**.jpg', 'archive')
+    build.classify('game/**.png', 'archive')
+    build.classify('game/**.jpg', 'archive')
+    build.classify('game/**.mp3', 'archive')
+    build.classify('game/**.rpy', 'archive')
+    build.classify('game/**.rpyc', 'archive')
+    
 
     ## Files matching documentation patterns are duplicated in a mac app build,
     ## so they appear in both the app and the zip file.
 
     build.documentation('*.html')
     build.documentation('*.txt')
+
+    build.destination = "E:\Programming-Environment\VisualNovel.Dist\{directory_name}-dists"
 
 
 ## A Google Play license key is required to perform in-app purchases. It can be

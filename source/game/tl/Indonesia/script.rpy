@@ -144,17 +144,12 @@ translate Indonesia hutan_0c40d588:
     # p "This forest seems dangerous, so it's better if we go together than alone."
     p "Hutan ini sepertinya berbahaya, lebih baik bersama daripada sendirian"
 
-# game/script.rpy:124
-translate Indonesia hutan_037f138b:
-
-    # a "Do you know where this is?"
-    a "Kamu tahu ini dimana?"
 
 # game/script.rpy:125
 translate Indonesia hutan_e9de8f54:
 
     # p "I'm not sure, but they briefly mentioned the words Masteria Land."
-    p "Entahlah, tapi sekilas mereka pernah menyebutkan kata Masteria Land"
+    p "Entahlah, tapi sekilas mereka pernah menyebutkan kata \"Masteria Land\""
 
 # game/script.rpy:126
 translate Indonesia hutan_1aa26080:
@@ -167,12 +162,6 @@ translate Indonesia hutan_8cfb41b3:
 
     # a "Alright, I'll allow you to follow me."
     a "Baiklah aku ijinkan kamu untuk mengikuti ku"
-
-# game/script.rpy:129
-translate Indonesia hutan_af811904:
-
-    # "SFX: rustle rustle"
-    "SFX: grasak grusak"
 
 # game/script.rpy:139
 translate Indonesia hutan_664e1132:
@@ -312,12 +301,6 @@ translate Indonesia strings:
     old "Ahaha~ of course, the sky is so bright, right?"
     new "Ahaha~ tentu saja, langitnya cerah ya"
 
-# game/script.rpy:28
-translate Indonesia prolog_rute_i_cbe309a9:
-
-    # "SFX: Ctiks.. Ctiks.. ."
-    "SFX: Ctiks.. Ctiks.. ."
-
 # game/script.rpy:93
 translate Indonesia pulau_6b544f09:
 
@@ -330,23 +313,11 @@ translate Indonesia pulau_33bb9fa5:
     # a ". . . .!!"
     a ". . . .!!"
 
-# game/script.rpy:116
-translate Indonesia hutan_7acffddc:
-
-    # "SFX: plak"
-    "SFX: plak"
-
 # game/script.rpy:124
 translate Indonesia hutan_0d2960d3:
 
     # a "Do you know where is this?"
     a "Apa kamu tahu ini dimana?"
-
-# game/script.rpy:138
-translate Indonesia hutan_e7a3a292:
-
-    # "SFX: ctang"
-    "SFX: ctang"
 
 # game/script.rpy:148
 translate Indonesia hutan_f55d50be:
@@ -359,12 +330,6 @@ translate Indonesia prolog_rute_ii_0cdb2253:
 
     # subtitle "Prolog Rute II"
     subtitle "Prolog Rute II"
-
-# game/script.rpy:170
-translate Indonesia prolog_rute_ii_f16dd078:
-
-    # "SFX: Ctik.. Ctik.. ."
-    "SFX: Ctik.. Ctik.. ."
 
 # game/script.rpy:203
 translate Indonesia prolog_rute_ii_3f83d641:

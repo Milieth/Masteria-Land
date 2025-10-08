@@ -59,7 +59,7 @@ label prolog_rute_i:
     scene bg langitbiru at falling_animation
     with fade
     show fall_overlay_scrollable at parallax_scroll_down
-    pause 3.0       # t > falling animation total time
+    $ renpy.pause(3.0, hard=True)       # t > falling animation total time
     show bg langitbiru:
         zoom 1.0
     with dissolve

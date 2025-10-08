@@ -7,7 +7,7 @@ default player_name = "Player"
 define p = Character('player_name', color = "#2bff00", dynamic=True)
 define a = Character("Ameno", color = "#FF3E3F")
 define n = Character("Notifikasi")
-define warga = Character("Warga")
+define warga = Character(_("Warga"))
 define mahyun = Character("Mahyun", color = "#FFF")
 
 define subtitle = Character(

@@ -1,11 +1,5 @@
 ﻿# TODO: Translation updated at 2025-09-28 17:02
 
-# game/script.rpy:28
-translate English prolog_rute_i_cbe309a9:
-
-    # "SFX: Ctiks.. Ctiks.. ."
-    "SFX: Tiks.. Tiks.. ."
-
 # game/script.rpy:37
 translate English prolog_rute_i_d322bcaa:
 
@@ -82,7 +76,7 @@ translate English job_23ad180f:
 translate English name_f705b3ef:
 
     # a "My name is Ameno Khroma. My task is to complete every mission that pops up on my notification screen."
-    a "My name is Ameno Khroma. My task is to complete every mission that pops up on my notification screen."
+    a "My name is Ameno Kroma. My task is to complete every mission that pops up on my notification screen."
 
 # game/script.rpy:89
 translate English pulau_de1bf7d2:
@@ -150,11 +144,6 @@ translate English alihkan_8139f57d:
     # a "Hoooh, so you didn't feel anything at all?!"
     a "Hoooh, so you didn't feel anything at all?!"
 
-# game/script.rpy:116
-translate English hutan_7acffddc:
-
-    # "SFX: plak"
-    "SFX: plak"
 
 # game/script.rpy:122
 translate English hutan_6c548c0b:
@@ -178,7 +167,7 @@ translate English hutan_0d2960d3:
 translate English hutan_e9de8f54:
 
     # p "I'm not sure, but they briefly mentioned the words Masteria Land."
-    p "I'm not sure, but they briefly mentioned the words Masteria Land."
+    p "I'm not sure, but they briefly mentioned the words \"Masteria Land.\""
 
 # game/script.rpy:126
 translate English hutan_1aa26080:
@@ -191,18 +180,6 @@ translate English hutan_8cfb41b3:
 
     # a "Alright, I'll allow you to follow me."
     a "Alright, I'll allow you to follow me."
-
-# game/script.rpy:129
-translate English hutan_af811904:
-
-    # "SFX: rustle rustle"
-    "SFX: rustle rustle"
-
-# game/script.rpy:138
-translate English hutan_e7a3a292:
-
-    # "SFX: ctang"
-    "SFX: ctang"
 
 # game/script.rpy:139
 translate English hutan_664e1132:
@@ -239,12 +216,6 @@ translate English prolog_rute_ii_0cdb2253:
 
     # subtitle "Prolog Rute II"
     subtitle "Prolog Rute II"
-
-# game/script.rpy:170
-translate English prolog_rute_ii_f16dd078:
-
-    # "SFX: Ctik.. Ctik.. ."
-    "SFX: Ctik.. Ctik.. ."
 
 # game/script.rpy:179
 translate English prolog_rute_ii_d322bcaa:
